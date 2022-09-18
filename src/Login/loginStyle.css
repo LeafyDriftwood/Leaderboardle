@@ -1,0 +1,197 @@
+body {
+    justify-content: space-evenly;
+    height: auto;
+    background-size: cover;
+    /*from https://codepen.io/LauraRobertson/pen/eBjrgj*/
+    background: #151515;
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    margin-top: 5pc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-header {
+    color: white;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.durdle-icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.login-form {
+    /* Rectangle 8 */
+
+
+/* Black */
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 45px;
+    color: white;
+    padding-left: 0.4em;
+    margin: 0.5em;
+
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.7em;
+    margin-right: 2.2em;
+}
+
+.login-button {
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 45px;
+    color: white;
+    margin: auto;
+    margin-top: 1.5em;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor:pointer;
+    transition: 750ms;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    background: #555353;
+    
+}
+
+.signup-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+}
+
+.signup-label {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 430;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+
+}
+
+.signup-form-div {
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+    margin-top: 2%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+
+
+.signup-overarching {
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-header-text {
+    color: white;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.login-return-label, .login-return-label:hover {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 430;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.reset-confirmation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.7em;
+}
+
+.checkmark-icon {
+    margin-top: 15px;
+}
+
+.return-arrow {
+    margin-top: 7px;
+}
+
+.acorn-icon {
+    margin-top: 15px;
+}
+
+.header-overarching{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-button {
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 40px;
+    color: white;
+    margin: auto;
+    margin-top: 0.5em;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor:pointer;
+    transition: 750ms;
+    text-decoration: none;
+}
+
+.sign-up-button:hover {
+    background: #555353;
+    
+}

@@ -1,0 +1,24 @@
+.correct-word-container {
+    display: flex;
+}
+
+.correct-word-form {
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 45px;
+    color: white;
+    padding-left: 0.4em;
+    margin: 0.5em;
+
+}
+
+.gridCol {
+    margin-top: 40px;
+}
+

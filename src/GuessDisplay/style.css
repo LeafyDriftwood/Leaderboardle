@@ -1,0 +1,76 @@
+.guess-display-wrapper {
+    background-color: #0b141bc5;
+    border: 2px solid #ffffff;
+    border-radius: 18px;
+    padding: 10px;
+    padding-bottom: 1pc;
+    padding-top: 0.3pc;
+    margin-top: 1.5pc;
+    align-self: center;
+}
+
+.return-to-leaderboard-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Helvetica';
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.return-icon {
+    display: flex;
+
+}
+    
+.username-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Helvetica';
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.manual-entry {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.manual-entry-button {
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+    margin: auto;
+    margin-top: 1.5em;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor:pointer;
+    transition: 750ms;
+    text-decoration: none;
+}
+
+.manual-entry-button:hover {
+    background: #555353;
+    
+}

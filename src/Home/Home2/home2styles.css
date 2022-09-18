@@ -1,0 +1,67 @@
+.wordle-select-bar {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+
+.wordle-select-bar-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 8px;
+
+}
+
+.wordle-background-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(12, 18, 32);
+    margin-top: 35px;
+    padding: 30px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+}
+
+.wordle-number-home2 {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 23px;
+    text-align: center;
+    font-weight:300;
+    line-height: normal;
+    margin-bottom: 0.5pc;
+}
+
+.unfinished-text-home2 {
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 10px;
+    padding-left: 0.5pc;
+    padding-right: 0.5pc;
+    font-family: 'Roboto';
+}
+
+.guess-display-wrapper {
+    background-color: #0b141bc5;
+    border: 2px solid #ffffff;
+    border-radius: 18px;
+    padding-bottom: 1pc;
+    padding-top: 0.3pc;
+    margin-top: 1.5pc;
+    align-self: center;
+}

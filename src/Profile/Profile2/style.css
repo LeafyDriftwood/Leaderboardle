@@ -1,0 +1,221 @@
+.user-profile-icon{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3.5pc;
+}
+
+
+.username-input-form {
+    /* Rectangle 8 */
+
+
+/* Black */
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 45px;
+    color: white;
+    padding-left: 0.4em;
+
+}
+
+.profile-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.7em;
+}
+
+.profile-username-text {
+    color: white;
+    margin-right: 158px;
+    font-family: 'Helvetica';
+    margin-top: 3%;
+}
+
+
+.profile-color-text {
+    color: white;
+    margin-right: 192px;
+    font-family: 'Helvetica';
+    margin-top: 3%;
+}
+
+.color-selector {
+    margin-right: 180px;
+}
+
+.update-button {
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 45px;
+    color: white;
+    margin: auto;
+    margin-top: 1.5em;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 3.5pc;
+    cursor:pointer;
+    transition: 750ms;
+    text-decoration: none;
+}
+
+.update-button:hover {
+    background: #555353; 
+}
+
+
+.change-password-button {
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+    margin-top: 0.2em;
+    margin-right: 140px;
+    width: fit-content;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    cursor:pointer;
+    transition: 750ms;
+    text-decoration: none;
+}
+
+.change-password-button:hover {
+    background: #555353;
+    
+
+    
+}
+
+.profile-changeables {
+    margin-top: 50px;
+    align-self: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+
+}
+
+
+
+.stats-info-descriptor {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bar-chart{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+
+.best-score-descriptor {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.best-score-value {
+    color: white;
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 20px;
+
+}
+
+.stats-icon {
+    margin-top: 2.5pc;
+    margin-bottom: 1pc;
+}
+
+.best-score-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.custom-tooltip {
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0px;
+    background: #14398aa1;
+
+}
+
+
+.new-password-form {
+    /* Rectangle 8 */
+
+
+/* Black */
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 45px;
+    color: white;
+    padding-left: 0.4em;
+    margin: 0.5em;
+
+}
+
+
+.new-password-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pinecone-icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}

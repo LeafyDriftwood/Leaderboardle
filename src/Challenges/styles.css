@@ -1,0 +1,254 @@
+.challenge-display-div {
+    height: 100px;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+.challenge-word-div {
+    display: flex;
+    height: 65%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #446477;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    border-radius: 12px 12px 0px 0px;
+
+    cursor: pointer;
+}
+
+.challenge-code-div {
+    border-radius: 0px 0px 12px 12px;
+    background: #68819d;
+
+    display: flex;
+    height: 35%;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.create-wordle-div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2px solid white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    border-radius: 12px;
+}
+
+.create-wordle-plus-icon {
+    margin-right: 10px;
+}
+
+.challenge-tidbits {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-input {
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.create-wordle {
+    margin-top: 1.5pc;
+    margin-left: 3.5pc;
+    color: white;
+    
+}
+
+.search-wordle-form {
+    /* Rectangle 8 */
+
+
+/* Black */
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    color: white;
+    padding-left: 0.4em;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 20px;
+    width: 130px;
+
+}
+
+
+.table-container-challenge{
+    margin-top: 0.5pc;
+    margin-right: 0.5pc;
+    margin-left: 0.5pc;
+    border-radius: 10px;
+    max-height: 15em;
+    overflow: scroll;
+}
+
+.wordle-large-container {
+    border-radius: 15px;
+    margin-right: 0.5pc;
+    margin-left: 0.5pc;
+    padding-bottom: 1px;
+}
+
+
+.wordle-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    margin-top: 0.5pc;
+    margin-right: 0.5pc;
+    margin-left: 0.5pc;
+    border-radius: 10px;
+    max-height: 14em;
+    
+}
+
+.wordle-info-descriptor {
+    width: 35%;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.wordle-info-solution-div {
+    width: 65%;
+    color: white;
+    font-size: 20px;
+}
+
+.wordle-info-solution {
+    width: fit-content;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+.wordle-info-code {
+    width: 30%;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.wordle-info-url {
+
+    width: 30%;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 15px;
+
+
+}
+
+.wordle-info-code-url {
+    width: 65%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+
+
+}
+
+.header-cell {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.error-text {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(90, 31, 31);
+}
+
+.challenge-code-split {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.return-button-container {
+    margin-bottom: 1pc;
+    margin-left: 32px;
+}
+
+.return-button-surrounder {
+    width: fit-content;
+    padding: 3px;
+    padding-top: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
+
+.challenge-stat-score {
+    font-family: 'Roboto';
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14.5px;
+    color: white;
+    margin: auto;
+    padding-top: 15px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-weight: 400;
+}

@@ -1,0 +1,235 @@
+.square {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7rem;
+    line-height: 40px;
+    align-items: justify;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 0.125pc;
+    margin-left: 0.125pc;
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+
+}
+
+.row-normal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    /*from https://codepen.io/LauraRobertson/pen/eBjrgj*/
+    
+    margin-bottom: 0.25pc;
+}
+
+
+.grid {
+    align-items: center;
+    height: auto;
+    background-size: cover;
+    /*from https://codepen.io/LauraRobertson/pen/eBjrgj*/
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1pc;
+}
+
+.durdle {
+    height: 2em;
+    width: 2em;
+    margin-left: 1pc;
+
+    
+}
+
+
+.navbar {
+    background: #031C34;
+
+} 
+
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2pc;
+    margin-top: 0.5pc;
+    
+}
+
+.nav-buttons {
+    color: white;
+    padding-right: 4em;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 34px;
+    text-decoration: none;
+    margin-left: 2pc;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.challenge-nav-title {
+    color: white;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 34px;
+    text-decoration: none;
+    margin-left: 2pc;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.profile-dropdowns {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dolly {
+    margin-left: 1pc;
+}
+
+.dropdown-toggle::after {
+    display: none !important; 
+  }
+
+.profile {
+    margin-left: 2pc;
+}
+
+.toggle {
+    margin-right: 1pc;
+}
+
+
+.navbar-user-profile-icon{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background-color: none;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2pc;
+    margin-right: 5px
+}
+
+.correct-word-container {
+    display: flex;
+}
+
+.correct-word-form {
+    background: #151515;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 45px;
+    color: white;
+    padding-left: 0.4em;
+    margin: 0.5em;
+
+}
+
+.gridCol {
+    margin-top: 40px;
+}
+
+#keyboard-cont {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #keyboard-cont div {
+    display: flex;
+  }
+  
+  .second-row {
+    margin: 0.5rem 0;
+  }
+  
+  .keyboard-button {
+    background: #151515;
+    border: 1.7px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 9px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+    margin: auto;
+    margin-top: 0.5em;
+    width: fit-content;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    cursor:pointer;
+    transition: 750ms;
+    text-decoration: none;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    text-transform: uppercase;
+  }
+
+
+
+
+@media only screen and (min-width: 760px)  and (min-height: 760px) {
+
+    .keyboard-button {
+        background: #151515;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 45px;
+        color: white;
+        margin: auto;
+        margin-top: 0.5em;
+        width: fit-content;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+        cursor:pointer;
+        transition: 750ms;
+        text-decoration: none;
+        margin-right: 2.5px;
+        margin-left: 2.5px;
+        text-transform: uppercase;
+      }
+ }
+
+
+@media only screen and (min-width: 760px) {
+
+    .square {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 58px;
+        align-items: justify;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: 0.125pc;
+        margin-left: 0.125pc;
+        width: 60px;
+        height: 60px;
+    
+    }
+ }
+
+
+
